@@ -5,3 +5,167 @@
   box-sizing: border-box;
   font-size: 16px;
 }
+
+:root {
+  --red: rgb(135, 3, 3);
+  --blue: rgb(9, 32, 232);
+  --green: rgb(23, 150, 7);
+  --purple: rgb(107, 7, 161);
+}
+
+@font-face {
+  font-family: Burton;
+  src: url(Griffy-Regular.ttf);
+}
+
+@font-face {
+  font-family: Fancy;
+  src: url(Cafe_Lounge19_trial.ttf);
+}
+
+@font-face {
+  font-family: Drac;
+  src: url(CHAR1B.TTF);
+}
+
+@font-face {
+  font-family: Bloody;
+  src: url(Ginga.ttf);
+}
+
+.burton {
+  font-family: Burton;
+}
+
+.fancy {
+  font-family: Fancy;
+}
+
+.drac {
+  font-family: Drac;
+}
+
+.bloody {
+  font-family: Bloody;
+}
+
+.container {
+  max-width: 100%;
+  border: 1px solid var(--purple);
+}
+
+.font-2 {
+  font-size: 2rem;
+}
+
+.font-3 {
+  font-size: 3rem;
+}
+
+.font-4 {
+  font-size: 4rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2.5px;
+  width: 100%;
+  border: 1px solid var(--green);
+}
+
+.col-1 {
+  min-width: calc(100%/12);
+  max-width: calc(100%/12);
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.col-2 {
+  min-width: calc(100%/6);
+  max-width: calc(100%/6);
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.col-3 {
+  min-width: calc(100%/4);
+  max-width: calc(100%/4);
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.col-4 {
+  min-width: calc(100%/3);
+  max-width: calc(100%/3);
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.col-5 {
+  min-width: calc(100%/2.4);
+  max-width: calc(100%/2.4);
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.col-6 {
+  min-width: calc(100%/2);
+  max-width: calc(100%/2);
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.col-7 {
+  min-width: calc(100%/1.714);
+  max-width: calc(100%/1.714);
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.col-8 {
+  min-width: calc(100%/1.5);
+  max-width: calc(100%/1.5);
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.col-9 {
+  min-width: calc(100%/1.333);
+  max-width: calc(100%/1.333);
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.col-10 {
+  min-width: calc(100%/1.2);
+  max-width: calc(100%/1.2);
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.col-11 {
+  min-width: calc(100%/1.091);
+  max-width: calc(100%/1.091);
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.col-12 {
+  min-width: calc(100%/1);
+  max-width: calc(100%/1);
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
